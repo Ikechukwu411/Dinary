@@ -3,16 +3,16 @@ body{
   font-size: 10px;
 }
 .second{
-  margin-top: -3rem;
+  margin: 8rem 0rem 0rem 0rem;
   width: 100%;
 }
 .container {
-  height: 100%;
+  /* height: 60%; */
   width: 80%;
   margin: 0 auto;
 }
 .contain {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -36,7 +36,13 @@ h1 {
   color: green;
   font-weight: 400;
 }
+.leftside2{
+  margin:4rem 3rem 0rem 0rem  ;
+  width: 40rem;
+
+}
 .rightside2{
+  margin:4rem 0rem 0rem 2rem;
   font-size: 16px;
   font-weight: 400;
 }
@@ -48,13 +54,14 @@ h1 {
   font-weight: bold;
 }
 .link-tag {
-  width: 8rem;
-  height: 2rem;
+  width: 10rem;
+  height: 3rem;
   background-color: #5735d2;
   border-radius: 10px;
   text-align: center;
   border: none;
-  padding-top: 1rem;
+  font-size: small;
+  padding-top: .5rem;
 }
 .link-tag a {
   text-decoration: none;
@@ -77,19 +84,26 @@ h1 {
   color: grey;
   padding: 0.5rem 1rem;
   border-radius: 10px;
+  margin-top: 3rem;
 }
 .link {
   color: #282b6d;
   text-decoration: none;
   font-weight: bold;
 }
+.right2{
+  margin-left: 1rem;
+}
+
 .left2 {
-  margin-left: 2rem;
+  margin-left: 20rem;
   text-align: right;
 }
 .leftDownSide {
   display: flex;
   color: grey;
+
+  margin-top: 2rem;
 }
 @media screen and (max-width: 600px) {
   .second{
